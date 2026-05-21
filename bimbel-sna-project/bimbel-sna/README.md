@@ -21,28 +21,6 @@ Dashboard modern untuk manajemen jadwal les privat, pembayaran siswa, dan to-do 
 
 ---
 
-## 📦 Cara Install
-
-### 1. Clone atau download project
-```bash
-git clone https://github.com/username/jadwal-bimbel-sna.git
-cd jadwal-bimbel-sna
-```
-
-### 2. Install dependencies
-```bash
-npm install
-```
-
-### 3. Jalankan development server
-```bash
-npm run dev
-```
-
-Buka browser di: **http://localhost:5173**
-
----
-
 ## 🏗️ Struktur Folder
 
 ```
@@ -120,32 +98,6 @@ src/
 - Toast notifications
 - Smooth page transitions (Framer Motion)
 - Data persisted di localStorage
-
----
-
-## 🚀 Deploy ke Vercel
-
-### Cara 1: Via Vercel CLI
-```bash
-npm install -g vercel
-vercel login
-vercel --prod
-```
-
-### Cara 2: Via GitHub
-1. Push ke GitHub repository
-2. Buka [vercel.com](https://vercel.com)
-3. Klik **New Project** → Import repo
-4. Framework: **Vite**
-5. Build Command: `npm run build`
-6. Output Directory: `dist`
-7. Klik **Deploy**
-
-### Cara 3: Drag & Drop
-```bash
-npm run build
-```
-Upload folder `dist/` ke [vercel.com/new](https://vercel.com/new)
 
 ---
 
