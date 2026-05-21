@@ -41,10 +41,6 @@ npm run dev
 
 Buka browser di: **http://localhost:5173**
 
-### Login
-- **Email:** admin@bimbelsna.id
-- **Password:** admin123
-
 ---
 
 ## 🏗️ Struktur Folder
@@ -150,47 +146,6 @@ vercel --prod
 npm run build
 ```
 Upload folder `dist/` ke [vercel.com/new](https://vercel.com/new)
-
----
-
-## 🗄️ Data Siswa & Jadwal
-
-### Siswa & Tarif
-| Siswa | Tarif/Bulan |
-|-------|-------------|
-| Resan | Rp500.000 |
-| Thoriq | Rp500.000 |
-| Arkana | Rp500.000 |
-| Altaf & Nasya | Rp750.000 |
-| Aaron | Rp400.000 |
-| Nail | Rp400.000 |
-| **Total** | **Rp3.050.000** |
-
-### Jadwal Mingguan
-| Hari | Jadwal |
-|------|--------|
-| Senin | Kuliah 08-13.30, Aaron 15.30-16.30, Resan 19-20 |
-| Selasa | Kuliah, Thoriq 14-15, Altaf&Nasya 16-17, Nail 19-20 |
-| Rabu | Kuliah, Aaron 14.45-15.45, Resan 19-20 |
-| Kamis | Kuliah, Arkana 16-17, Nail 19-20 |
-| Jumat | Kuliah, Aaron 16-17, Nail 19-20 |
-| Sabtu | Altaf&Nasya 8-9, Arkana 10-11, Thoriq 14-15, Resan 19-20 |
-| Minggu | Altaf&Nasya 8-9, Arkana 10-11, Thoriq 14-15 |
-
----
-
-## 🔧 Kustomisasi
-
-### Mengubah Data Awal
-Edit file: `src/data/initialData.js`
-
-### Mengubah Kredensial Login
-Edit file: `src/context/store.js` → fungsi `login()`
-
-### Menambah Halaman Baru
-1. Buat file di `src/pages/NamaPage.jsx`
-2. Tambah route di `src/App.jsx`
-3. Tambah nav item di `src/layouts/MainLayout.jsx`
 
 ---
 
