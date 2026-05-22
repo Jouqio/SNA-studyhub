@@ -101,16 +101,6 @@ src/
 
 ---
 
-## 🐛 Troubleshooting
-
-**FullCalendar tidak muncul:** Pastikan semua `@fullcalendar/*` package terinstall.
-
-**Data hilang setelah refresh:** Data disimpan di localStorage, pastikan tidak dalam mode incognito.
-
-**Dark mode tidak bekerja:** Pastikan `darkMode: 'class'` ada di `tailwind.config.js`.
-
----
-
 ## 📝 Lisensi
 
 MIT License - bebas digunakan dan dimodifikasi.
