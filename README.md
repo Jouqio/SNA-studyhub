@@ -1,6 +1,6 @@
 #  Jadwal Bimbel SNA — Dashboard Admin
 
-Dashboard modern untuk manajemen jadwal les privat, pembayaran siswa, dan to-do list harian.hsa
+Dashboard modern untuk manajemen jadwal les privat, pembayaran siswa, dan to-do list harian.
 
 ---
 
