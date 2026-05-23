@@ -99,7 +99,7 @@ Pusat informasi operasional harian.
 
 ---
 
-## 📅 Schedule Management
+##  Schedule Management
 
 Kelola seluruh jadwal les dengan mudah.
 
@@ -132,7 +132,7 @@ Monitoring pembayaran siswa secara real-time.
 
 ---
 
-## ✅ To-Do Management
+##  To-Do Management
 
 Produktivitas harian dalam satu tempat.
 
