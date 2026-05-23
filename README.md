@@ -69,11 +69,11 @@ src
 │
 ├── App.jsx
 └── main.jsx
-
+```
 ---
 
 #  Technology Stack
-```text
+
 | Layer | Technology |
 |---------|---------|
 | Frontend | React 18 |
