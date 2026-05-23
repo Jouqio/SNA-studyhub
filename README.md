@@ -30,7 +30,7 @@ Manage schedules, payments, daily tasks, and business analytics in one beautiful
 ---
 
 #  Architecture
-
+```
 src
 │
 ├── components
@@ -62,7 +62,7 @@ src
 │
 ├── App.jsx
 └── main.jsx
-
+```
 ---
 
 #  Technology Stack
@@ -86,6 +86,7 @@ src
 
 #  Folder Structure
 
+```
 bimbel-sna-dashboard
 │
 ├── public
@@ -108,7 +109,7 @@ bimbel-sna-dashboard
 ├── postcss.config.js
 ├── vercel.json
 └── README.md
-
+```
 ---
 
 #  Getting Started
