@@ -1,6 +1,6 @@
 <div align="center">
 
-#  Bimbel SNA Dashboard
+# Bimbel SNA Dashboard
 
 ### Modern Tutoring Management Platform
 
@@ -10,14 +10,20 @@ Manage schedules, payments, daily tasks, and business analytics in one beautiful
   <img src="./docs/dashboard-preview.png" alt="Dashboard Preview" width="100%">
 </p>
 
-![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-State-orange?style=for-the-badge)
-![MIT License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Production_Ready-success?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Zustand-State-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Production_Ready-success?style=for-the-badge" />
+</p>
 
-##  Features
+</div>
+
+---
+
+# Features
 
 - Schedule management
 - Payment tracking
@@ -29,8 +35,9 @@ Manage schedules, payments, daily tasks, and business analytics in one beautiful
 
 ---
 
-#  Architecture
-```
+# Architecture
+
+```text
 src
 │
 ├── components
@@ -62,7 +69,7 @@ src
 │
 ├── App.jsx
 └── main.jsx
-```
+
 ---
 
 #  Technology Stack
@@ -86,7 +93,6 @@ src
 
 #  Folder Structure
 
-```
 bimbel-sna-dashboard
 │
 ├── public
@@ -109,7 +115,6 @@ bimbel-sna-dashboard
 ├── postcss.config.js
 ├── vercel.json
 └── README.md
-```
 ---
 
 #  Getting Started
