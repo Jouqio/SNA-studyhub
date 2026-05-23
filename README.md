@@ -27,151 +27,15 @@ https://your-demo-link.vercel.app
 
 #  Overview
 
-**Bimbel SNA Dashboard** adalah aplikasi manajemen operasional bimbingan belajar yang dirancang untuk membantu tutor dan pemilik bimbel mengelola seluruh aktivitas harian dalam satu sistem terintegrasi.
+##  Features
 
-Mulai dari:
-
--  Pengelolaan jadwal les
--  Monitoring pembayaran siswa
--  To-Do List operasional
--  Statistik bisnis
--  Reminder & notifikasi
--  Export laporan PDF
-
-Semua data tersimpan secara lokal menggunakan browser storage sehingga aplikasi dapat digunakan tanpa backend tambahan.
-
----
-
-#  Project Goals
-
-Banyak tutor masih mengelola:
-
-- Jadwal di WhatsApp
-- Pembayaran di Excel
-- Catatan tugas di kertas
-- Statistik secara manual
-
-Proyek ini dibuat untuk menyatukan seluruh kebutuhan tersebut dalam satu dashboard modern yang cepat, sederhana, dan mudah digunakan.
-
----
-
-#  Screenshots
-
-## Dashboard
-
-![Dashboard](./docs/dashboard-preview.png)
-
----
-
-## Schedule Management
-
-![Schedule](./docs/schedule-preview.png)
-
----
-
-## Payment Tracking
-
-![Payment](./docs/payment-preview.png)
-
----
-
-## Analytics
-
-![Analytics](./docs/statistics-preview.png)
-
----
-
-#  Key Features
-
-##  Smart Dashboard
-
-Pusat informasi operasional harian.
-
-### Menampilkan
-
-- Total siswa aktif
-- Total sesi les mingguan
-- Total pemasukan
-- Progress tugas
-- Jadwal hari ini
-- Aktivitas terbaru
-- Grafik pemasukan
-
----
-
-##  Schedule Management
-
-Kelola seluruh jadwal les dengan mudah.
-
-### Fitur
-
-- Tambah jadwal
-- Edit jadwal
-- Hapus jadwal
-- Kalender interaktif
-- Tampilan per hari
-- Kategori jadwal
-- Rekap jadwal mingguan
-- Export PDF
-
----
-
-##  Payment Tracking
-
-Monitoring pembayaran siswa secara real-time.
-
-### Fitur
-
-- Status pembayaran
-- Lunas / Belum lunas
-- Filter siswa
-- Search siswa
-- Progress pembayaran
-- Export PDF
-- Reset pembayaran bulanan
-
----
-
-##  To-Do Management
-
-Produktivitas harian dalam satu tempat.
-
-### Fitur
-
-- CRUD tugas
-- Prioritas tugas
-- Deadline
-- Deteksi keterlambatan
-- Progress keseluruhan
-- Sorting otomatis
-- Filter status
-
----
-
-##  Business Analytics
-
-Visualisasi performa operasional.
-
-### Charts
-
-- Revenue Trend
-- Schedule Distribution
-- Payment Completion
-- Student Summary
-
----
-
-##  Modern User Experience
-
-### UI Features
-
-- Dark Mode
-- Responsive Layout
-- Toast Notification
-- Smooth Animation
-- Interactive Charts
-- Sidebar Navigation
-- Notification Center
+- Schedule management
+- Payment tracking
+- To-do management
+- Business analytics
+- PDF export
+- Responsive dashboard UI
+- Dark mode support
 
 ---
 
@@ -232,48 +96,6 @@ src
 
 ---
 
-#  Engineering Decisions
-
-## Why React?
-
-- Component-based architecture
-- Reusable UI
-- Excellent ecosystem
-- Easy scalability
-
----
-
-## Why Zustand?
-
-Dipilih dibanding Redux karena:
-
-- Minimal boilerplate
-- Simpler API
-- Better developer experience
-- Cocok untuk dashboard skala kecil-menengah
-
----
-
-## Why Tailwind CSS?
-
-- Utility-first workflow
-- Konsistensi desain
-- Cepat dikembangkan
-- Mudah maintenance
-
----
-
-## Why LocalStorage?
-
-Untuk versi awal aplikasi:
-
-- Tidak memerlukan backend
-- Setup sangat cepat
-- Cocok untuk penggunaan personal
-- Deployment sederhana
-
----
-
 #  Folder Structure
 
 ```text
@@ -311,7 +133,7 @@ bimbel-sna-dashboard
 git clone https://github.com/USERNAME/bimbel-sna-dashboard.git
 ```
 
-Masuk ke folder:
+In folder:
 
 ```bash
 cd bimbel-sna-dashboard
@@ -333,133 +155,11 @@ npm install
 npm run dev
 ```
 
-Akses aplikasi:
+Open:
 
 ```text
 http://localhost:5173
 ```
-
----
-
-#  Production Build
-
-Build aplikasi:
-
-```bash
-npm run build
-```
-
-Preview build:
-
-```bash
-npm run preview
-```
-
----
-
-#  Authentication
-
-Versi saat ini menggunakan:
-
-```text
-Single Admin Authentication
-```
-
-Protected Routes:
-
-- Dashboard
-- Jadwal
-- Pembayaran
-- Statistik
-- Pengaturan
-
----
-
-#  Data Persistence
-
-Menggunakan:
-
-```text
-Browser LocalStorage
-```
-
-Keuntungan:
-
-✅ Offline-friendly
-
-✅ Cepat
-
-✅ Tidak membutuhkan database
-
-✅ Deployment sederhana
-
----
-
-#  PDF Reporting
-
-Laporan yang dapat diexport:
-
-### Jadwal
-
-```text
-Schedule Report PDF
-```
-
-### Pembayaran
-
-```text
-Payment Report PDF
-```
-
-Menggunakan:
-
-```text
-jsPDF + AutoTable
-```
-
----
-
-#  Responsive Design
-
-Mendukung:
-
-- Desktop
-- Laptop
-- Tablet
-- Smartphone
-
----
-
-#  Future Roadmap
-
-## Version 2.0
-
-### Student Management
-
-- [ ] Attendance Tracking
-- [ ] Student Notes
-- [ ] Student Progress Report
-
-### Communication
-
-- [ ] WhatsApp Reminder
-- [ ] Broadcast Message
-- [ ] Parent Notification
-
-### Cloud Features
-
-- [ ] Firebase Integration
-- [ ] Supabase Integration
-- [ ] Cloud Backup
-- [ ] Real-time Sync
-
-### Business Features
-
-- [ ] Financial Reports
-- [ ] Revenue Forecast
-- [ ] Multi Tutor Management
-- [ ] Parent Portal
-
 ---
 
 #  Current Status
@@ -479,44 +179,13 @@ Mendukung:
 
 ---
 
-#  Contributing
-
-Contributions are welcome.
-
-1. Fork repository
-2. Create feature branch
-
-```bash
-git checkout -b feature/new-feature
-```
-
-3. Commit changes
-
-```bash
-git commit -m "Add new feature"
-```
-
-4. Push changes
-
-```bash
-git push origin feature/new-feature
-```
-
-5. Open Pull Request
-
+Author
+Syauqi Nuzul Abdi
 ---
 
 #  License
 
-Distributed under the MIT License.
-
-See `LICENSE` for more information.
-
----
-
-#  Author
-
-### Bimbel SNA
+This project is licensed under the MIT License.
 
 Private Tutoring Management Dashboard
 
