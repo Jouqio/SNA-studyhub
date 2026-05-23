@@ -73,7 +73,7 @@ src
 ---
 
 #  Technology Stack
-
+```bash
 | Layer | Technology |
 |---------|---------|
 | Frontend | React 18 |
@@ -88,11 +88,11 @@ src
 | Icons | Lucide React |
 | PDF Export | jsPDF + AutoTable |
 | Deployment | Vercel |
-
+```
 ---
 
 #  Folder Structure
-
+```text
 bimbel-sna-dashboard
 │
 ├── public
@@ -115,6 +115,7 @@ bimbel-sna-dashboard
 ├── postcss.config.js
 ├── vercel.json
 └── README.md
+```
 ---
 
 #  Getting Started
