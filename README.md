@@ -73,7 +73,7 @@ src
 ---
 
 #  Technology Stack
-```bash
+```text
 | Layer | Technology |
 |---------|---------|
 | Frontend | React 18 |
