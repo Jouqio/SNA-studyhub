@@ -31,7 +31,6 @@ Manage schedules, payments, daily tasks, and business analytics in one beautiful
 
 #  Architecture
 
-```text
 src
 │
 ├── components
@@ -63,7 +62,6 @@ src
 │
 ├── App.jsx
 └── main.jsx
-```
 
 ---
 
@@ -88,7 +86,6 @@ src
 
 #  Folder Structure
 
-```text
 bimbel-sna-dashboard
 │
 ├── public
@@ -111,7 +108,6 @@ bimbel-sna-dashboard
 ├── postcss.config.js
 ├── vercel.json
 └── README.md
-```
 
 ---
 
@@ -176,9 +172,5 @@ Syauqi Nuzul Abdi
 #  License
 
 This project is licensed under the MIT License.
-
-Private Tutoring Management Dashboard
-
-Built using modern frontend technologies and best practices.
 
 ---
