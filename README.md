@@ -17,16 +17,6 @@ Manage schedules, payments, daily tasks, and business analytics in one beautiful
 ![MIT License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Production_Ready-success?style=for-the-badge)
 
-###  Live Demo
-
-https://your-demo-link.vercel.app
-
-</div>
-
----
-
-#  Overview
-
 ##  Features
 
 - Schedule management
