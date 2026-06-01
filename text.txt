@@ -103,8 +103,8 @@ src/
 
 ##  Lisensi
 
-MIT License - bebas digunakan dan dimodifikasi.
+MIT License - Jouqio
 
 ---
 
-Dibuat untuk **Bimbel SNA** • 2025
+Dibuat untuk **Bimbel SNA** • 2026
