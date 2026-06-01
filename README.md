@@ -1,32 +1,49 @@
-#  Jadwal Bimbel SNA — Dashboard Admin
+<div align="center">
 
-Dashboard modern untuk manajemen jadwal les privat, pembayaran siswa, dan to-do list harian.
+# Bimbel SNA Dashboard
+
+### Modern Tutoring Management Platform
+
+Manage schedules, payments, daily tasks, and business analytics in one beautiful dashboard.
+
+<p align="center">
+  <img src="./docs/dashboard-preview.png" alt="Dashboard Preview" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Zustand-State-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Production_Ready-success?style=for-the-badge" />
+</p>
+
+</div>
 
 ---
 
-##  Tech Stack
+# Features
 
-| Kategori | Teknologi |
-|----------|-----------|
-| Frontend | React 18 + Vite 5 |
-| Styling | Tailwind CSS 3 |
-| Animasi | Framer Motion |
-| Kalender | FullCalendar 6 |
-| State | Zustand (persisted) |
-| Charts | Recharts |
-| Icons | Lucide React |
-| PDF Export | jsPDF + jsPDF-AutoTable |
-| Toast | React Hot Toast |
-| Routing | React Router v6 |
+- Schedule management
+- Payment tracking
+- To-do management
+- Business analytics
+- PDF export
+- Responsive dashboard UI
+- Dark mode support
 
 ---
 
-##  Struktur Folder
+# Architecture
 
-```
-src/
-├── components/        # Komponen reusable (future)
-├── pages/
+```text
+src
+│
+├── components
+│   └── Shared UI Components
+│
+├── pages
 │   ├── LoginPage.jsx
 │   ├── DashboardPage.jsx
 │   ├── JadwalPage.jsx
@@ -34,77 +51,133 @@ src/
 │   ├── TodoPage.jsx
 │   ├── StatistikPage.jsx
 │   └── PengaturanPage.jsx
-├── layouts/
-│   └── MainLayout.jsx     # Sidebar + Topbar
-├── context/
-│   └── store.js           # Zustand global store
-├── data/
-│   └── initialData.js     # Data awal siswa & jadwal
-├── utils/
-│   └── helpers.js         # Format, export PDF, dll
-├── styles/
-│   └── index.css          # Tailwind + custom CSS
-├── App.jsx                # Routing
-└── main.jsx               # Entry point
+│
+├── layouts
+│   └── MainLayout.jsx
+│
+├── context
+│   └── store.js
+│
+├── data
+│   └── initialData.js
+│
+├── utils
+│   └── helpers.js
+│
+├── styles
+│   └── index.css
+│
+├── App.jsx
+└── main.jsx
+```
+---
+
+#  Technology Stack
+
+| Layer | Technology |
+|---------|---------|
+| Frontend | React 18 |
+| Build Tool | Vite 5 |
+| Styling | Tailwind CSS 3 |
+| State Management | Zustand |
+| Routing | React Router v6 |
+| Animations | Framer Motion |
+| Calendar | FullCalendar |
+| Charts | Recharts |
+| Notifications | React Hot Toast |
+| Icons | Lucide React |
+| PDF Export | jsPDF + AutoTable |
+| Deployment | Vercel |
+```
+```
+---
+#  Folder Structure
+```text
+bimbel-sna-dashboard
+│
+├── public
+│
+├── src
+│   ├── components
+│   ├── pages
+│   ├── layouts
+│   ├── context
+│   ├── data
+│   ├── utils
+│   ├── styles
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+├── vercel.json
+└── README.md
+```
+---
+
+#  Getting Started
+
+## Clone Repository
+
+```bash
+git clone https://github.com/USERNAME/bimbel-sna-dashboard.git
+```
+
+In folder:
+
+```bash
+cd bimbel-sna-dashboard
 ```
 
 ---
 
-##  Fitur Lengkap
+## Install Dependencies
 
-### Dashboard
-- Statistik: total siswa, jadwal, pemasukan, to-do
-- Jadwal hari ini (otomatis berdasarkan hari)
-- Grafik pemasukan (Area Chart)
-- Status pembayaran cepat
-- Aktivitas terbaru
-
-### Jadwal
-- CRUD jadwal mingguan
-- Tampilan list per hari (7 tab hari)
-- Tampilan kalender (FullCalendar)
-- Warna berbeda: les privat vs kuliah
-- Export PDF jadwal
-- Rekapitulasi per hari (bar chart)
-
-### Pembayaran
-- CRUD status pembayaran per siswa
-- Toggle lunas / belum lunas
-- Progress bar pembayaran
-- Filter & search siswa
-- Export PDF laporan
-- Reset pembayaran bulanan
-- Bar chart per siswa (warna: hijau=lunas, biru=belum)
-
-### To-Do List
-- CRUD tugas
-- Prioritas: Tinggi / Sedang / Rendah
-- Deadline dengan deteksi terlambat
-- Progress bar keseluruhan
-- Filter per status & prioritas
-- Sort otomatis (prioritas & status)
-
-### Statistik
-- Tren pemasukan 7 bulan (Area Chart)
-- Jadwal per hari (Stacked Bar Chart)
-- Distribusi tagihan (Donut/Pie Chart)
-- Tabel rincian per siswa
-
-### Sistem
-- Login admin (protected routes)
-- Dark mode (toggle + persisted)
-- Sidebar collapsible
-- Notifikasi bell (unpaid + high-priority todos)
-- Toast notifications
-- Smooth page transitions (Framer Motion)
-- Data persisted di localStorage
+```bash
+npm install
+```
 
 ---
 
-##  Lisensi
+## Run Development Server
 
-MIT License - bebas digunakan dan dimodifikasi.
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+---
+
+#  Current Status
+
+| Module | Status |
+|---------|---------|
+| Dashboard | ✅ Complete |
+| Schedule | ✅ Complete |
+| Payment | ✅ Complete |
+| To-Do | ✅ Complete |
+| Statistics | ✅ Complete |
+| Settings | ✅ Complete |
+| Responsive UI | ✅ Complete |
+| PDF Export | ✅ Complete |
+| Cloud Sync | 🚧 Planned |
+| Multi User | 🚧 Planned |
 
 ---
 
-Dibuat untuk **Bimbel SNA** • 2025
+Author
+Syauqi Nuzul Abdi
+---
+
+#  License
+
+This project is licensed under the MIT License.
+
+---
