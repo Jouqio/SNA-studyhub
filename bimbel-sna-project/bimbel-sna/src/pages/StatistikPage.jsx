@@ -128,7 +128,7 @@ export default function StatistikPage() {
 
       {/* Student table */}
       <motion.div initial={{ opacity:0,y:16 }} animate={{ opacity:1,y:0 }} transition={{ delay:0.25 }} className="card p-5">
-        <h2 className="font-semibold text-sm text-slate-800 dark:text-slate-100 mb-4">🏆 Rincian per Siswa</h2>
+        <h2 className="font-semibold text-sm text-slate-800 dark:text-slate-100 mb-4"> Rincian per Siswa</h2>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>

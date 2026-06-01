@@ -56,7 +56,7 @@ export default function JadwalPage() {
       {/* Header */}
       <div className="flex items-center justify-between flex-wrap gap-3">
         <div>
-          <h1 className="text-xl font-bold text-slate-900 dark:text-white">📅 Jadwal Les Privat</h1>
+          <h1 className="text-xl font-bold text-slate-900 dark:text-white"> Jadwal Les Privat</h1>
           <p className="text-sm text-slate-400">Kelola jadwal mingguan bimbel</p>
         </div>
         <div className="flex gap-2">
