@@ -16,7 +16,7 @@ Manage schedules, payments, daily tasks, and business analytics in one beautiful
   <img src="https://img.shields.io/badge/TailwindCSS-3-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white" />
   <img src="https://img.shields.io/badge/Zustand-State-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Production_Ready-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Portfolio Project-success?style=for-the-badge" />
 </p>
 
 </div>
