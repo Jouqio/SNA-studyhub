@@ -7,7 +7,7 @@
 Manage schedules, payments, daily tasks, and business analytics in one beautiful dashboard.
 
 <p align="center">
-   <img src="./docs/dashboard-preview.jpg" alt="Dashboard Preview" width="100%">
+    <img src="./dashboard-preview/DashboardSNA.jpeg" alt="Bimbel SNA Dashboard Preview" width="100%">
 </p>
 
 <p align="center">
@@ -70,28 +70,34 @@ src
 ├── App.jsx
 └── main.jsx
 ```
+
 ---
 
-#  Technology Stack
+# Technology Stack
 
-| Layer | Technology |
-|---------|---------|
-| Frontend | React 18 |
-| Build Tool | Vite 5 |
-| Styling | Tailwind CSS 3 |
-| State Management | Zustand |
-| Routing | React Router v6 |
-| Animations | Framer Motion |
-| Calendar | FullCalendar |
-| Charts | Recharts |
-| Notifications | React Hot Toast |
-| Icons | Lucide React |
-| PDF Export | jsPDF + AutoTable |
-| Deployment | Vercel |
+| Layer            | Technology        |
+| ---------------- | ----------------- |
+| Frontend         | React 18          |
+| Build Tool       | Vite 5            |
+| Styling          | Tailwind CSS 3    |
+| State Management | Zustand           |
+| Routing          | React Router v6   |
+| Animations       | Framer Motion     |
+| Calendar         | FullCalendar      |
+| Charts           | Recharts          |
+| Notifications    | React Hot Toast   |
+| Icons            | Lucide React      |
+| PDF Export       | jsPDF + AutoTable |
+| Deployment       | Vercel            |
+
 ```
+
 ```
+
 ---
-#  Folder Structure
+
+# Folder Structure
+
 ```text
 bimbel-sna-dashboard
 │
@@ -116,9 +122,10 @@ bimbel-sna-dashboard
 ├── vercel.json
 └── README.md
 ```
+
 ---
 
-#  Getting Started
+# Getting Started
 
 ## Clone Repository
 
@@ -153,30 +160,32 @@ Open:
 ```text
 http://localhost:5173
 ```
+
 ---
 
-#  Current Status
+# Current Status
 
-| Module | Status |
-|---------|---------|
-| Dashboard | ✅ Complete |
-| Schedule | ✅ Complete |
-| Payment | ✅ Complete |
-| To-Do | ✅ Complete |
-| Statistics | ✅ Complete |
-| Settings | ✅ Complete |
+| Module        | Status      |
+| ------------- | ----------- |
+| Dashboard     | ✅ Complete |
+| Schedule      | ✅ Complete |
+| Payment       | ✅ Complete |
+| To-Do         | ✅ Complete |
+| Statistics    | ✅ Complete |
+| Settings      | ✅ Complete |
 | Responsive UI | ✅ Complete |
-| PDF Export | ✅ Complete |
-| Cloud Sync | 🚧 Planned |
-| Multi User | 🚧 Planned |
+| PDF Export    | ✅ Complete |
+| Cloud Sync    | 🚧 Planned  |
+| Multi User    | 🚧 Planned  |
 
 ---
 
 Author
 Syauqi Nuzul Abdi
+
 ---
 
-#  License
+# License
 
 This project is licensed under the MIT License.
 
