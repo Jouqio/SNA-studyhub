@@ -7,7 +7,7 @@
 Manage schedules, payments, daily tasks, and business analytics in one beautiful dashboard.
 
 <p align="center">
-    <img src="./dashboard-preview/DashboardSNA.jpeg" alt="Bimbel SNA Dashboard Preview" width="100%">
+    <img src="./dashboard-preview.jpg/DashboardSNA.jpeg" alt="Bimbel SNA Dashboard Preview" width="100%">
 </p>
 
 <p align="center">
