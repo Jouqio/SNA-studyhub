@@ -7,7 +7,7 @@
 Manage schedules, payments, daily tasks, and business analytics in one beautiful dashboard.
 
 <p align="center">
-  <img src="./docs/dashboard-preview.png" alt="Dashboard Preview" width="100%">
+   <img src="./docs/dashboard-preview.jpg" alt="Dashboard Preview" width="100%">
 </p>
 
 <p align="center">
