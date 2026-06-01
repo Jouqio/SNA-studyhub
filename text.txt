@@ -1,10 +1,10 @@
-# 📚 Jadwal Bimbel SNA — Dashboard Admin
+#  Jadwal Bimbel SNA — Dashboard Admin
 
 Dashboard modern untuk manajemen jadwal les privat, pembayaran siswa, dan to-do list harian.
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 | Kategori | Teknologi |
 |----------|-----------|
@@ -21,7 +21,7 @@ Dashboard modern untuk manajemen jadwal les privat, pembayaran siswa, dan to-do 
 
 ---
 
-## 🏗️ Struktur Folder
+##  Struktur Folder
 
 ```
 src/
@@ -50,7 +50,7 @@ src/
 
 ---
 
-## ✨ Fitur Lengkap
+##  Fitur Lengkap
 
 ### Dashboard
 - Statistik: total siswa, jadwal, pemasukan, to-do
@@ -101,7 +101,7 @@ src/
 
 ---
 
-## 📝 Lisensi
+##  Lisensi
 
 MIT License - bebas digunakan dan dimodifikasi.
 

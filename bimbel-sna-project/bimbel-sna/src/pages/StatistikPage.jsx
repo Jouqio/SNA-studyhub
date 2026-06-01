@@ -51,7 +51,7 @@ export default function StatistikPage() {
   return (
     <div className="space-y-5">
       <div>
-        <h1 className="text-xl font-bold text-slate-900 dark:text-white">📈 Statistik Pemasukan</h1>
+        <h1 className="text-xl font-bold text-slate-900 dark:text-white"> Statistik Pemasukan</h1>
         <p className="text-sm text-slate-400">Analisis keuangan bimbel</p>
       </div>
 
@@ -72,7 +72,7 @@ export default function StatistikPage() {
 
       {/* Monthly trend */}
       <motion.div initial={{ opacity:0,y:16 }} animate={{ opacity:1,y:0 }} transition={{ delay:0.1 }} className="card p-5">
-        <h2 className="font-semibold text-sm text-slate-800 dark:text-slate-100 mb-4">📊 Tren Pemasukan 7 Bulan Terakhir</h2>
+        <h2 className="font-semibold text-sm text-slate-800 dark:text-slate-100 mb-4"> Tren Pemasukan 7 Bulan Terakhir</h2>
         <ResponsiveContainer width="100%" height={240}>
           <AreaChart data={monthlyData}>
             <defs>
@@ -95,7 +95,7 @@ export default function StatistikPage() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
         {/* Schedule per day */}
         <motion.div initial={{ opacity:0,y:16 }} animate={{ opacity:1,y:0 }} transition={{ delay:0.15 }} className="card p-5">
-          <h2 className="font-semibold text-sm text-slate-800 dark:text-slate-100 mb-4">📅 Jadwal per Hari</h2>
+          <h2 className="font-semibold text-sm text-slate-800 dark:text-slate-100 mb-4"> Jadwal per Hari</h2>
           <ResponsiveContainer width="100%" height={200}>
             <BarChart data={schedPerDay} barSize={18} barGap={2}>
               <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" vertical={false} />
@@ -111,7 +111,7 @@ export default function StatistikPage() {
 
         {/* Pie chart */}
         <motion.div initial={{ opacity:0,y:16 }} animate={{ opacity:1,y:0 }} transition={{ delay:0.2 }} className="card p-5">
-          <h2 className="font-semibold text-sm text-slate-800 dark:text-slate-100 mb-4">🥧 Distribusi Tagihan Siswa</h2>
+          <h2 className="font-semibold text-sm text-slate-800 dark:text-slate-100 mb-4"> Distribusi Tagihan Siswa</h2>
           <ResponsiveContainer width="100%" height={200}>
             <PieChart>
               <Pie data={pieData} cx="50%" cy="50%" innerRadius={55} outerRadius={85}

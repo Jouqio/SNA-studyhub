@@ -22,7 +22,7 @@ export default function LoginPage() {
     const ok = login(email, password)
     setLoading(false)
     if (ok) {
-      toast.success('Selamat datang! 👋')
+      toast.success('Selamat datang, Syauqi Nuzul Abdi!')
       navigate('/')
     } else {
       setError('Email atau password salah.')

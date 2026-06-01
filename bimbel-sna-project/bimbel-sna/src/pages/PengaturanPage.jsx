@@ -13,7 +13,7 @@ export default function PengaturanPage() {
   return (
     <div className="space-y-5 max-w-2xl">
       <div>
-        <h1 className="text-xl font-bold text-slate-900 dark:text-white">⚙️ Pengaturan</h1>
+        <h1 className="text-xl font-bold text-slate-900 dark:text-white"> Pengaturan</h1>
         <p className="text-sm text-slate-400">Kelola akun dan preferensi tampilan</p>
       </div>
 

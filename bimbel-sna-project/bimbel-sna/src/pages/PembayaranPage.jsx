@@ -41,7 +41,7 @@ export default function PembayaranPage() {
     <div className="space-y-5">
       <div className="flex items-center justify-between flex-wrap gap-3">
         <div>
-          <h1 className="text-xl font-bold text-slate-900 dark:text-white">💰 Pembayaran Siswa</h1>
+          <h1 className="text-xl font-bold text-slate-900 dark:text-white"> Pembayaran Siswa</h1>
           <p className="text-sm text-slate-400">Kelola pembayaran bulanan</p>
         </div>
         <div className="flex gap-2">
@@ -157,7 +157,7 @@ export default function PembayaranPage() {
 
       {/* Chart */}
       <div className="card p-5">
-        <h2 className="font-semibold text-sm text-slate-800 dark:text-slate-100 mb-4">📊 Grafik Pembayaran per Siswa</h2>
+        <h2 className="font-semibold text-sm text-slate-800 dark:text-slate-100 mb-4"> Grafik Pembayaran per Siswa</h2>
         <ResponsiveContainer width="100%" height={220}>
           <BarChart data={chartData} barSize={36}>
             <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" vertical={false} />
